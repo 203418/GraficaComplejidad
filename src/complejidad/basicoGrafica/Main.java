@@ -7,7 +7,7 @@ public class Main {
         Complejidad c = new Complejidad();
         int ejecuciones = 20,opcion;
         int resultados[][] = new int[ejecuciones][2];
-        System.out.println("Digite el tipo de algoritmo del cual quiere ver su grafica");
+        System.out.println("Digite el tipo de algoritmo del cual quiere ver la grafica de su complejidad");
         System.out.print("1.Lineal\n2.Cuadratica\n3.Gauss\n4.Logaritmica\n");
         opcion = entrada.nextInt();
         switch (opcion){
